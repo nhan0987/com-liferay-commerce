@@ -6,3 +6,6 @@ Import-Package:\
 	com.liferay.portal.apio.user;version="[1,2)",\
 	\
 	*
+Export-Package: \
+	com.liferay.portal.apio.user,\
+	com.liferay.portal.apio.idempotent

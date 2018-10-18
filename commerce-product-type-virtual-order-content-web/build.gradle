@@ -23,4 +23,8 @@ dependencies {
 	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations", version: "1.3.0"
 	compileOnly project(":apps:commerce:commerce-api")
 	compileOnly project(":apps:commerce:commerce-product-api")
+	
+	// https://mvnrepository.com/artifact/com.liferay.commerce/com.liferay.commerce.product.type.virtual.order.content.web
+	compile group: 'com.liferay.commerce', name: 'com.liferay.commerce.product.type.virtual.order.content.web', version: '1.0.3'
+	
 }

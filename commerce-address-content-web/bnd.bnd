@@ -2,3 +2,4 @@ Bundle-Name: Liferay Commerce Address Content Web
 Bundle-SymbolicName: com.liferay.commerce.address.content.web
 Bundle-Version: 1.0.3
 Web-ContextPath: /commerce-address-content-web
+Export-Package: com.liferay.commerce.exception
